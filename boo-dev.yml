@@ -1,7 +1,2 @@
 ####MySQL数据源
-jdbc:
-  datasource:
-    driver: com.mysql.jdbc.Driver
-    username: root
-    password: 123456
-    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
+jdbc.datasource.url=jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
